@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* navbar part start */
+.nav1{
+    background-color: #131921;
+}
+.location, .cart{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+}
+.location li, .us-flag li, .cart li{
+    color: white;
+    line-height: 18px;
+}
+.location li span{
+    font-size: 12px;
+    color: #ccc;
+}
+.us-flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.us-flag .en{
+    font-weight: 700;
+}
+.account li{
+    color: white;
+    line-height: 18px;
+}
+.account li span{
+    font-size: 13px;
+}
+.nav-link form input{
+    width: 20rem;
+}
+.cart{
+    margin-top: 10px;
+}
+/* navbar part end */
+
+/* menu part start */
+.nav2{
+    background-color: #232F3E;
+    height: 40px;
+}
+.nav2 .navbar-brand, .nav2 ul li a, .nav2 .all{
+    color: white;
+}
+/* menu part end */
+
+/* main part start */
+/* slider part start */
+
+/* slider part end */
+
+/* card part start */
+.main-card{
+    background-color: #E3E6E6;
+    position: absolute;
+    top: 25rem;
+    left: 0;
+}
+.card{
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.card-footer a{
+    font-size: 14px;
+    color: #007185;
+}
+.card-body ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sub-card{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.card-body ul li span{
+    font-size: 13px;
+}
+.main-card2{
+    position: absolute;
+    top: 119rem;
+    left: 0;
+    background-color: #E3E6E6;
+}
+/* card part end */
+
+/* sub slider part start */
+.sub-slider{
+    position: absolute;
+    top: 104rem;
+    left: 0;
+    height: 250px;
+    background-color: #E3E6E6;
+}
+#subSlider{
+    margin: 20px 0;
+}
+.sub-slider2{
+    position: absolute;
+    top: 198rem;
+    left: 0;
+    height: 250px;
+    background-color: #E3E6E6;
+}
+/* sub slider part end */
+/* main part end */
+
+/* footer part start */
+footer{
+    position: relative;
+    
+}
+footer p{
+    position: absolute;
+    top: 175rem;
+    left: 0;
+    text-align: center;
+    padding: 20px 40%;
+    background-color: #131A22 !important;
+
+    color: white;
+    font-size: 13px;
+}
+/* footer part end */
